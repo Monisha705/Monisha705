@@ -1,0 +1,15 @@
+student_1=input("Enter 1st student name: ")
+stu_1_marks=int(input("enter marks: "))
+student_2=input("Enter 2nd student name: ")
+stu_2_marks=int(input("enter marks: "))
+student_3=input("Enter 3rd student name: ")
+stu_3_marks=int(input("enter marks: "))
+student_4=input("Enter 4th student name: ")
+stu_4_marks=int(input("enter marks: "))
+student_5=input("Enter 5th student name: ")
+stu_5_marks=int(input("enter marks: "))
+total_sub=5
+total_marks=(stu_1_marks+stu_2_marks+stu_3_marks+stu_4_marks+stu_5_marks)
+avg_marks=(total_marks/total_sub)
+
+print(f"{student_1} got {stu_1_marks},{student_2} got {stu_2_marks},{student_3} got {stu_3_marks},{student_4} got {stu_5_marks},{student_5} got {stu_5_marks} and there averege is{avg_marks}")
